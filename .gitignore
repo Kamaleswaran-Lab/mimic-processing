@@ -1,0 +1,50 @@
+# MIMIC-IV data directory
+mimic-iv-3.1/
+
+# PostgreSQL database files
+builtdata/postgres_data/
+
+# CSV exports
+builtdata/csv_exports/
+
+# All CSV files (compressed and uncompressed)
+*.csv
+*.csv.gz
+
+# SLURM job logs
+builtdata/scripts/logs/
+
+# Container files
+*.sif
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
