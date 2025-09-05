@@ -13,3 +13,7 @@ To generate concepts, change to this directory and run `psql`. Then within psql,
 ... or, run the SQL files in your GUI of choice.
 
 The postgres-functions.sql contains definitions for a few functions which exist in BigQuery but do not exist in PostgreSQL. It is not required but these functions are convenient if you find yourself switching back and forth between the two.
+
+
+# Derive CSV Files for future research
+After getting all the concepts tables, run `export_commands.sql` to export those CSV files.
